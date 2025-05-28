@@ -9,7 +9,7 @@ public class CacaPalavras {
        String[] palavras = {"computador", "cavalo", "viagem", "brasil", "java", "ventilador"};
        Random random = new Random();
        String palavraEscolhida = palavras[random.nextInt(palavras.length)];
-       int tamanho = 10; // tamanho do tabuleiro (10x10)
+       int tamanho = 10; // Tamanho do tabuleiro (10x10)
        char[][] tabuleiro = new char[tamanho][tamanho];
        
        
