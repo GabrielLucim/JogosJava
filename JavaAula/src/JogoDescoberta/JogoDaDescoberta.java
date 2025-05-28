@@ -22,7 +22,7 @@ public class JogoDaDescoberta {
        
        while (true) {
            System.out.print("Sua tentativa: ");
-           //guarda a mensagem do scanner e a reescreve em letras minusculas
+           // Guarda a mensagem do scanner e a reescreve em letras minusculas
            String tentativa = scanner.nextLine().toLowerCase();
            
            if (tentativa.equals("desistir")) {
